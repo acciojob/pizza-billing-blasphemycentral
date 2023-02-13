@@ -72,4 +72,74 @@ public class Pizza {
         }
         return "";
     }
+
+    public void setPrice(int price)
+    {
+        this.price = price;
+    }
+
+    public Boolean getVeg()
+    {
+        return isVeg;
+    }
+
+    public void setVeg(Boolean veg)
+    {
+        isVeg = veg;
+    }
+
+    public void setBill(String bill)
+    {
+        this.bill = bill;
+    }
+
+    public int getToppings()
+    {
+        return toppings;
+    }
+
+    public void setToppings(int toppings)
+    {
+        this.toppings = toppings;
+    }
+
+    public boolean isCheesed()
+    {
+        return isCheesed;
+    }
+
+    public void setCheesed(boolean cheesed)
+    {
+        isCheesed = cheesed;
+    }
+
+    public boolean isTopped()
+    {
+        return isTopped;
+    }
+
+    public void setTopped(boolean topped)
+    {
+        isTopped = topped;
+    }
+
+    public boolean isBilled()
+    {
+        return isBilled;
+    }
+
+    public void setBilled(boolean billed)
+    {
+        isBilled = billed;
+    }
+
+    public boolean isTakeAway()
+    {
+        return isTakeAway;
+    }
+
+    public void setTakeAway(boolean takeAway)
+    {
+        isTakeAway = takeAway;
+    }
 }
