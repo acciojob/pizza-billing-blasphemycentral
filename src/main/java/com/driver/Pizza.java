@@ -70,7 +70,7 @@ public class Pizza {
             isBilled = true;
             return this.bill;
         }
-        return "";
+        return this.bill;
     }
 
     public void setPrice(int price)
